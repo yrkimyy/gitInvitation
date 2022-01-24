@@ -7,7 +7,7 @@ echo "+++++++++++++++++++++++++++++++"
 
 curl \
   -X POST \
-  -H "Authorization: Token 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" \
+  -H "Authorization: Token ghp_" \
   -H "Accept: application/vnd.github.v3+json" \
   https://api.github.com/orgs/cs-devops-bootcamp/invitations \
   -d '{"email":"'"${line}"'", "role":"direct_member", "team_ids":[5594430]}'
