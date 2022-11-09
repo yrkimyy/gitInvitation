@@ -14,4 +14,4 @@ item=$(curl \
 
 echo $item
 
-done < file.txt > test.json
+done < file.txt >> test.json
